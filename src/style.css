@@ -1,0 +1,14 @@
+body {
+    @apply bg-dark-700;
+    @apply text-white;
+    @apply font-lg;
+}
+
+main {
+    grid-template-rows: auto 1fr auto;
+}
+
+input {
+    @apply text-black;
+    @apply px-2;
+}
