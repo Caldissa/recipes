@@ -11,4 +11,6 @@ main {
 input {
     @apply text-black;
     @apply px-2;
+    @apply rounded-md;
+    @apply py-1;
 }
