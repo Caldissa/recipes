@@ -8,7 +8,21 @@ main {
     grid-template-rows: auto 1fr auto;
 }
 
-input {
+input[type=text] {
+    @apply text-black;
+    @apply px-2;
+    @apply rounded-md;
+    @apply py-1;
+}
+
+textarea {
+    @apply text-black;
+    @apply px-2;
+    @apply rounded-md;
+    @apply py-1;
+}
+
+input[type=number] {
     @apply text-black;
     @apply px-2;
     @apply rounded-md;
